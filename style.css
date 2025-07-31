@@ -1,4 +1,4 @@
-h3 {
+h5 {
     color: aqua;
     background-color: brown;
 }
@@ -6,10 +6,18 @@ h4 {
     color: pink;
     background-color: brown;
 }
-h2 {
+h3 {
     color: blue;
     background-color: brown;
 }
-img{
+h5,h4,h3 {
+    text-align: center;
     
+}
+img{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin: auto;   
 }
